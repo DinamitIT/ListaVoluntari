@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <div className="titlu">Voluntari Departament IT 2023-2024</div>
+        <div className="scrollable-div">
+          <h4>Nume si prenume - Nume github</h4>
+          <h4>Theo Storm - $efu</h4>
+          <h4>Cristi Milmoiu - Technic bo$$</h4>
+          <h4>Boscanici Adrian - O secreta pe mata</h4>
+          <h4>Dulgheriu Bogdan Gabriel - dulgheriubogdan</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+          <h4>test - test</h4>
+        </div>
+      </div>
     </div>
   );
 }
