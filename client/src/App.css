@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #252930;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+
+.titlu {  
+  color: #47abc6;
+  font-size: calc(40px + 2vmin);
+}
+
+.scrollable-div {   
+  height: 800px; /* Adjust the height as needed */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto;   /* Enable vertical scrollbar */
+  scrollbar-width: thin; /* Thin scrollbar, you can use 'auto' for system default */
+  padding: 20px; /* Optional styling */
+}
+
+h1 { font-size: 100%; }
 
 @keyframes App-logo-spin {
   from {
